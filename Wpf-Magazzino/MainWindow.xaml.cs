@@ -85,5 +85,13 @@ namespace Wpf_Magazzino
                 }
             }
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            if (MessageBox.Show("Vuoi Eliminare Il File?","Sei Sicuro?", MessageBoxButton.YesNo,MessageBoxImage.Question) == MessageBoxResult.Yes)
+            {
+                File.Delete(file_name);
+            }
+        }
     }
 }

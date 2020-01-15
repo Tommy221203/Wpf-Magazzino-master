@@ -14,7 +14,8 @@
         <TextBox x:Name="txtnome" HorizontalAlignment="Left" Height="67" Margin="10,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"  FontSize="22" FontWeight="Normal"/>
         <Button Content="VISUALIZZA" HorizontalAlignment="Left" Height="69" Margin="531,116,0,0" VerticalAlignment="Top" Width="240" FontSize="36" Click="Button_Click_1" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF1700FF"/>
         <TextBox VerticalScrollBarVisibility="Auto" IsReadOnly="True" Name="lblresult" HorizontalAlignment="Left" Height="212" Margin="33,197,0,0" VerticalAlignment="Top" Width="411" FontSize="18" Foreground="Black" Background="{x:Null}" FontWeight="Bold" BorderBrush="{x:Null}"/>
-        <Image Margin="518,151,16,15" Stretch="Fill" Source="/magazzino-png-4.png"/>
+        <Image Margin="575,266,73,25" Stretch="Fill" Source="/magazzino-png-4.png"/>
+        <Button Content="ELIMINA" HorizontalAlignment="Left" Height="69" Margin="551,197,0,0" VerticalAlignment="Top" Width="210" Click="Button_Click_2" FontSize="36" Background="{x:Null}" FontWeight="Bold" Foreground="#FFDC00FF" BorderBrush="{x:Null}"/>
 
     </Grid>
 </Window>
